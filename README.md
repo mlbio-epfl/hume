@@ -2,7 +2,7 @@
 
 [Artyom Gadetsky](http://agadetsky.github.io), [Maria Brbić](http://brbiclab.epfl.ch)
 _________________
-This repo contains the source code in PyTorch of the HUME algorithm. HUME is a model-agnostic framework for inferring human labeling of a given dataset without any external supervision. For more details please check our paper The Pursuit of Human Labeling: A New Perspective on Unsupervised Learning (NeurIPS '23).
+This repo contains the source code of the HUME algorithm written in Pytorch. HUME is a model-agnostic framework for inferring human labeling of a given dataset without any external supervision. For more details please check our paper The Pursuit of Human Labeling: A New Perspective on Unsupervised Learning (NeurIPS '23).
 
 <div align="center" style="padding: 0 100pt">
 <img src="figures/model_overview.png">
