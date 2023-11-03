@@ -1,8 +1,8 @@
 ## The Pursuit of Human Labeling: A New Perspective on Unsupervised Learning
 
-[Artyom Gadetsky](http://agadetsky.github.io), [Maria Brbić](http://brbiclab.epfl.ch)
+[Artyom Gadetsky](http://agadetsky.github.io), [Maria Brbić](https://brbiclab.epfl.ch/team/)
 _________________
-This repo contains the source code of the HUME algorithm written in Pytorch. HUME is a model-agnostic framework for inferring human labeling of a given dataset without any external supervision. For more details please check our paper The Pursuit of Human Labeling: A New Perspective on Unsupervised Learning (NeurIPS '23).
+This repo contains the source code of the HUME algorithm written in PyTorch. HUME is a model-agnostic framework for inferring human labeling of a given dataset without any external supervision. For more details please check our paper The Pursuit of Human Labeling: A New Perspective on Unsupervised Learning (NeurIPS '23).
 
 <div align="center" style="padding: 0 100pt">
 <img src="figures/model_overview.png">
@@ -21,17 +21,17 @@ The code is built with the following libraries:
 
 ### Data Preparation
 
-You can download the prepared representations that we used in our experiments by installing [gdown](https://pypi.org/project/gdown/) and running:
+You can download the prepared representations that we used in our experiments by running:
 
 ```
-gdown 1t1EkPAbD0SBFXLyXtnlTRUt1DuvXd4fV
+wget https://brbiclab.epfl.ch/wp-content/uploads/2023/11/data.zip
 unzip data.zip
 ```
 
 You can download the tasks found by HUME for evaluation by running:
 
 ```
-gdown 1oBomawRoDws2Mo1K4Xny2O3QlqtGaiyc
+wget https://brbiclab.epfl.ch/wp-content/uploads/2023/11/tasks.zip
 unzip tasks.zip
 ```
 
@@ -99,7 +99,7 @@ python evaluate.py \
 --gt_labels_path data/labels/cifar10test_targets.npy
 ```
 
-### Acknowledgement
+### Acknowledgements
 
 While developing HUME we greatly benefited from the open-source repositories:
 
