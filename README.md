@@ -1,8 +1,10 @@
 ## The Pursuit of Human Labeling: A New Perspective on Unsupervised Learning
 
 [Artyom Gadetsky](http://agadetsky.github.io), [Maria Brbić](https://brbiclab.epfl.ch/team/)
+
+[`Project page`](https://brbiclab.epfl.ch/projects/hume/) | [`BibTeX`](#citing)
 _________________
-This repo contains the source code of the HUME algorithm written in PyTorch. HUME is a model-agnostic framework for inferring human labeling of a given dataset without any external supervision. For more details please check our paper The Pursuit of Human Labeling: A New Perspective on Unsupervised Learning (NeurIPS '23).
+This repo contains the source code of the HUME algorithm written in PyTorch. HUME is a model-agnostic framework for inferring human labeling of a given dataset without any external supervision. For more details please check our paper [The Pursuit of Human Labeling: A New Perspective on Unsupervised Learning](https://arxiv.org/abs/2311.02940) (NeurIPS '23).
 
 <div align="center" style="padding: 0 100pt">
 <img src="figures/model_overview.png">
